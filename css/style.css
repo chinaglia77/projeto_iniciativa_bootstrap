@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header{
+    height: 70px;
+    padding: 0 60px;
+}
+header nav > ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+header ul li > a{
+    text-decoration: none;
+}
+.img{
+    object-fit: cover;
+}
+.carrosel {
+    height: 100vh; 
+    overflow: hidden; 
+}
+figure{
+    border-radius: 15px;
+    height: 470px;
+}
+figure > img{
+    border-radius: 15px;
+}
+.card-produto img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-produto p{
+    max-width: 700px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+}
